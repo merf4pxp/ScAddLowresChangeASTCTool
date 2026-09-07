@@ -24,7 +24,7 @@ Install Python dependencies:
 pip install zstandard flatbuffers Pillow
 ```
 
-## add_lowres.py
+# add_lowres.py
 Adds a low‑resolution texture to the first texture set in an SC file.
 
 ## Usage
@@ -57,7 +57,7 @@ python add_lowres.py input.sc highres.png output.sc [PVRTexToolCLI.exe]
 python add_lowres.py my_model.sc diffuse.png my_model_low.sc /opt/pvr/PVRTexToolCLI
 ```
 
-## astc_tool.py
+# astc_tool.py
 Converts the **```ASTC```** format (block size) of textures inside an SC file.
 
 ## Usage
